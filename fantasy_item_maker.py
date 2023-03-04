@@ -30,7 +30,7 @@ def api_request(api_key, info_item_name, info_item_price, info_item_description,
         else:
             info_item_name.insert(0, "Put in your api key")
             return
-    print(api_key)
+
     openai.api_key = api_key
     res = openai.ChatCompletion.create(
             model="gpt-3.5-turbo-0301",

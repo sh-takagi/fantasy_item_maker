@@ -2,7 +2,7 @@
 ファンタジー系のRPGに出てきそうなアイテムをGPT-3.5-Turboを使って生成するツールです。
 
 # Demo
-
+![](fantasy_item_maker_demo.png)
 
 # Features
 - ChatGPTのAPIを使用してファンタジーアイテムの名前、価格、説明文を生成します。
